@@ -36,39 +36,62 @@ export default function Cards() {
 
   return (
     <>
-    <div className="cards">
-      <div className={`${isJedi ? "laser-left-blue" : "laser-left-red"}`}>
-        <Image
-          src={`${
-            isJedi
-              ? "/images/carousel-icons/falcon.png"
-              : "/images/carousel-icons/destroyer.png"
-          }`}
-          width={100}
-          height={100}
-          priority
-          alt={isJedi ? "falcon" : "destroyer"}
-          onClick={prevWork}
-          style={{ transform: isJedi ? "rotate(90deg)" : "rotate(-90deg)" }}
-        />
+      <div className="cards">
+        <div className={`${isJedi ? "laser-left-blue" : "laser-left-red"}`}>
+          <Image
+            className="img-ship"
+            src={`${
+              isJedi
+                ? "/images/carousel-icons/falcon.png"
+                : "/images/carousel-icons/destroyer.png"
+            }`}
+            width={100}
+            height={100}
+            priority
+            alt={isJedi ? "falcon" : "destroyer"}
+            onClick={prevWork}
+            style={{
+              transform: isJedi ? "rotate(90deg)" : "rotate(-90deg)",
+            }}
+          />
+          <Image
+            className="img-arrow"
+            src="/images/carousel-icons/left-arrow.png"
+            width={30}
+            height={40}
+            priority
+            alt="left arrow"
+            onClick={prevWork}
+          />
+        </div>
+        <Card work={workList[currentwork]} isWide={true} />
+        <div className={`${isJedi ? "laser-rigth-blue" : "laser-rigth-red"}`}>
+          <Image
+            className="img-ship"
+            src={`${
+              isJedi
+                ? "/images/carousel-icons/falcon.png"
+                : "/images/carousel-icons/destroyer.png"
+            }`}
+            width={100}
+            height={100}
+            alt={isJedi ? "falcon" : "destroyer"}
+            onClick={nextWork}
+            style={{ transform: isJedi ? "rotate(-90deg)" : "rotate(90deg)" }}
+          />
+          <Image
+            className="img-arrow"
+            src="/images/carousel-icons/left-arrow.png"
+            width={30}
+            height={40}
+            priority
+            alt="left arrow"
+            onClick={nextWork}
+            style={{ transform: "rotate(180deg)" }}
+          />
+        </div>
       </div>
-      <Card work={workList[currentwork]} isWide={true} />
-      <div className={`${isJedi ? "laser-rigth-blue" : "laser-rigth-red"}`}>
-        <Image
-          src={`${
-            isJedi
-              ? "/images/carousel-icons/falcon.png"
-              : "/images/carousel-icons/destroyer.png"
-          }`}
-          width={100}
-          height={100}
-          alt={isJedi ? "falcon" : "destroyer"}
-          onClick={nextWork}
-          style={{ transform: isJedi ? "rotate(-90deg)" : "rotate(90deg)" }}
-        />
-      </div>
-    </div>
-    <div className="dots">
+      <div className="dots">
         {workList.map((work, index) => (
           <div
             key={index}
@@ -77,6 +100,5 @@ export default function Cards() {
         ))}
       </div>
     </>
-    
   );
 }

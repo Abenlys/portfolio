@@ -11,8 +11,10 @@ export default function Contact() {
             <p>{contactList[0].description}</p>
         </div>
         <div className='contact__item'>
+          <Link href={`tel:${contactList[2].description}`}>
         <Image src={contactList[2].icon} alt='tel' width={50} height={50} />
-        <p>{contactList[2].description}</p>
+        {/* <p>{contactList[2].description}</p> */}
+        </Link>
         </div>
         <div className='contact__item'>
             <Link href={`mailto:${contactList[1].description}`}>

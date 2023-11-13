@@ -17,6 +17,11 @@
         font-size: 30px;
         text-align: center;
         margin: 10px auto;
+        @media all and (max-width: 768px) {
+            display: flex;
+            word-break: break-all;
+            height: auto;
+        }
     }
     &__separateur {
         border: 1px dashed grey;
@@ -37,4 +42,7 @@
 
 .wide {
     width: 40vw;
+    @media all and (max-width: 768px) {
+        width: 60vw;
+    }
 }
