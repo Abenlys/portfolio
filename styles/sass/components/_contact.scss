@@ -1,0 +1,19 @@
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+    margin: 30px auto;
+    @media all and (max-width: 768px) {
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 10px;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+}

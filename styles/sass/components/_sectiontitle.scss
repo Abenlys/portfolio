@@ -1,0 +1,17 @@
+.title {
+    width: 100vw;
+    overflow: hidden;
+    height: 30px;
+    display: flex;
+    margin: 40px 0;
+    border-top: .15rem solid;
+    border-bottom: .15rem solid;
+    color: white;
+    
+    &__txt {
+        white-space: nowrap;
+        overflow-wrap: break-word;
+        font-size: 24px;
+        animation: ScrollX 7s linear infinite;
+    }
+}

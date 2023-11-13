@@ -1,0 +1,60 @@
+.generique {
+  font-family: "Roboto";
+  height: 80%;
+  position: relative;
+  padding: 1rem;
+  &__button {
+    position: absolute;
+    top: -40px;
+    left: 30px;
+  }
+}
+
+.a-long-time-ago2 {
+  font-size: 26px;
+  color: #4bd5ee;
+  height: 20%;
+  padding: 0 1rem;
+}
+
+.animate-longtime {
+  opacity: 0;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-name: a-long-time-ago;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
+}
+
+.crawl2 {
+  height: 75%;
+  position: relative;
+  color: #ffff66;
+  font-size: 20px;
+  margin: 5px auto;
+  text-align: justify;
+  overflow: hidden;
+  p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0 1rem;
+  }
+}
+
+.animate-crawl {
+  transform-origin: center bottom;
+  transform: perspective(500px) rotateX(25deg);
+}
+
+.crawl-test {
+  & > div {
+    /* positionne la div en bas de l'écran (non visible) */
+    /* l'animation la fait remonter progressivement */
+    position: absolute;
+    top: 100%;
+    animation-delay: 2s; /* Démarre l'animation après la première */
+    animation-duration: 15s;
+    animation-name: crawl;
+    animation-timing-function: linear;
+  }
+}

@@ -1,0 +1,13 @@
+.pof {
+    width: 60%;
+    margin: 40px 0 30px 20px;
+    &__title {
+        margin: 30px 10%;
+        font-size: 30px;
+    }
+    &__liste {
+        list-style-type: disc;
+        margin: 50px 20%;
+        font-size: 20px;
+    }
+}

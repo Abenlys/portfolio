@@ -1,0 +1,24 @@
+{
+  "name": "test123",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.15",
+    "@mui/material": "^5.14.15",
+    "@next/font": "^14.0.1",
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-scroll": "^1.9.0",
+    "react-select-async-paginate": "^0.7.3",
+    "sass": "^1.69.5"
+  }
+}

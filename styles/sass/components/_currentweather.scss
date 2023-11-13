@@ -1,0 +1,24 @@
+.weather {
+    width: 220px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb(0, 0, 0 / 30);
+    margin-top: 10px;
+    padding: 1rem;
+    &__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 15px;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        &__detail {
+            display: flex;
+            gap: 5px;
+        }
+    }
+
+}

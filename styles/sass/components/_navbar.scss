@@ -1,0 +1,75 @@
+.navbar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: static;
+
+  .navbar {
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 5px;
+    &__logo {
+      display: flex;
+      align-items: flex-end;
+      gap: 5px;
+      color: white;
+      p {
+        font-size: 25px;
+      }
+    }
+    &__list {
+      display: flex;
+      gap: 12px;
+      font-size: 18px;
+      @media all and (max-width: 768px) {
+        display: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.menu-icon {
+  cursor: pointer;
+  @media all and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.navbar-responsive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 1rem;
+  font-size: 20px;
+
+  @media all and (min-width: 768px) {
+    display: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.navbar-sith {
+  background: linear-gradient($rougeSith, $rougeSombre);
+}
+
+.navbar-jedi {
+    background: linear-gradient($jediBleu, $bleuLazer);
+}
+
+.black {
+    color: black;
+}

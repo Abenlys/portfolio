@@ -1,0 +1,25 @@
+.center {
+    @include flex-center;
+}
+
+.static {
+    position: fixed;
+    z-index: 100;
+}
+
+.marg-top {
+    margin-top: 10px;
+}
+
+.boxshadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.view {
+    // height: 100vh;
+    width: 100vw;
+  }
+
+.width {
+    width: 100%;
+}

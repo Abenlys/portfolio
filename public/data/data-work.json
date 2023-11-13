@@ -1,0 +1,153 @@
+[
+  {
+    "id": "C3P0",
+    "title": { "name": "ohmyfood", "color": "#9356DC" },
+    "logo": "/images/projects/ohmyfood/logo/logo.svg",
+    "cover": "/images/projects/ohmyfood/cover/cover.png",
+    "code": "https://github.com/Abenlys/Abenlys.github.io",
+    "site": "https://abenlys.github.io/",
+    "pictures": [
+      "/images/projects/ohmyfood/pictures/picture1.png",
+      "/images/projects/ohmyfood/pictures/picture2.png",
+      "/images/projects/ohmyfood/pictures/picture3.png"
+    ],
+    "longtimeago": "A long time ago, in a galaxy far,",
+    "faraway": "far away...",
+    "minidescription": "liven up a web page with CSS animations",
+    "description": "You've joined Ohmyfood as a junior developer. Ohmyfood is a young startup that wants to make its mark on the restaurant market. Already present in New York, it now wants to make its mark in Paris. Your mission is to develop a mobile-first site listing the menus of gourmet restaurants. In addition to traditional reservation systems, customers will be able to compose their meal menu so that dishes are ready when they arrive. No more waiting in restaurants!",
+    "tags": ["#HTML5", "#CSS3", "#SASS"],
+    "theconqueredpowersofforce": [
+      "Responsive interface",
+      "CSS animations",
+      "SASS organizations",
+      "W3C HTML & CSS validator"
+    ]
+  },
+  {
+    "id": "R2D2",
+    "title": { "name": "sophie bluel", "color": "#B1663C" },
+    "logo": "/images/projects/sophiebluel/logo/logo.svg",
+    "cover": "/images/projects/sophiebluel/cover/cover.png",
+    "code": "https://github.com/Abenlys/P6",
+    "site": "https://sophie-bluel-amber.vercel.app",
+    "pictures": [
+      "/images/projects/sophiebluel/pictures/picture1.png",
+      "/images/projects/sophiebluel/pictures/picture2.png",
+      "/images/projects/sophiebluel/pictures/picture3.png"
+    ],
+    "longtimeago": "A long time ago, in a galaxy far,",
+    "faraway": "far away...",
+    "minidescription": "liven up a web page with javascript",
+    "description": "You work as a front-end developer for the ArchiWebos agency, which has 50 employees. Having completed your last project a little ahead of schedule, you are sent to reinforce a team working on the design of an interior designer's portfolio site. It's Monday morning and time for your first team briefing on this project. You know you're going to receive a lot of information, so you're getting ready to take notes.",
+    "tags": ["#HTML5", "#CSS3", "#JAVACRIPT"],
+    "theconqueredpowersofforce": [
+      "Dynamic site with Javascript",
+      "Call API",
+      "method GET, POST, DELETE",
+      "fetch method"
+    ]
+  },
+  {
+    "id": "ObiwanKenobi",
+    "title": { "name": "kasa", "color": "#FF6060" },
+    "logo": "/images/projects/kasa/logo/logo.svg",
+    "cover": "/images/projects/kasa/cover/cover.png",
+    "code": "https://github.com/Abenlys/P8_kasa",
+    "site": "https://p8-kasa.vercel.app",
+    "pictures": [
+      "/images/projects/kasa/pictures/picture1.png",
+      "/images/projects/kasa/pictures/picture2.png",
+      "/images/projects/kasa/pictures/picture3.png"
+    ],
+    "longtimeago": "A long time ago, in a galaxy far,",
+    "faraway": "far away...",
+    "minidescription": "Developp a web app with React",
+    "description": "Kasa is recruiting you as a freelance front-end developer to develop its new web platform. Kasa has been in the apartment rental business for almost 10 years now. With more than 500 ads posted every day, Kasa is one of the leading apartment rental companies in France. The perfect opportunity for you to add a great reference to your freelance portfolio! The Kasa site was coded over 10 years ago in ASP.NET, with a significant amount of legacy code. So Laura, the CTO, launched a complete overhaul to switch to a full JavaScript stack with NodeJS on the back-end, and React on the front-end. Kasa also took the opportunity to commission new mock-ups from its regular freelance designer. A big project for this year!",
+    "tags": ["#HTML5", "#CSS3", "#JAVACRIPT", "#REACT"],
+    "theconqueredpowersofforce": [
+      "Responsive app with React",
+      "Following Figma mock-up",
+      "create components (REACT)",
+      "Routes with React-router-dom",
+      "React hooks"
+    ]
+  },
+  {
+    "id": "AnakinSkywalker",
+    "title": { "name": "nina carducci", "color": "#000" },
+    "logo": "/images/projects/ninacarducci/logo/logo.png",
+    "cover": "/images/projects/ninacarducci/cover/cover.png",
+    "code": "https://github.com/Abenlys/P9_Nina_Carducci",
+    "site": "https://p9-nina-carducci.vercel.app",
+    "pictures": [
+      "/images/projects/ninacarducci/pictures/picture1.png",
+      "/images/projects/ninacarducci/pictures/picture2.png",
+      "/images/projects/ninacarducci/pictures/picture3.png"
+    ],
+    "longtimeago": "A long time ago, in a galaxy far,",
+    "faraway": "far away...",
+    "minidescription": "Optimize website's SEO",
+    "description": "You're a freelance developer and you've decided to offer your SEO services to new customers. To do so, you've analyzed several websites. You then contacted the administrators of the sites that could be optimized to offer them your services. Among your prospects is the website of Nina Carducci, a photographer one of your friends told you about. Here's the e-mail you sent to Nina: Hello, I'm a web developer and I'm writing to you because I had a chance to have a look at your site. I find your work great quality. However, I found your site to be relatively slow to load, and I think you could gain a lot of visitors if your site were optimized for search engines.",
+    "tags": ["#HTML5", "#CSS3", "#JAVACRIPT", "#SEO"],
+    "theconqueredpowersofforce": [
+      "Optimizing site images",
+      "Optimize code and structure",
+      "improve site loading and accessibility"
+    ]
+  },
+  {
+    "id": "DarthVader",
+    "title": { "name": "724 event", "color": "#5B32FF" },
+    "logo": "/images/projects/724event/logo/logo.png",
+    "cover": "/images/projects/724event/cover/cover.png",
+    "code": "https://github.com/Abenlys/P10_724event",
+    "site": "https://p10-724event.vercel.app",
+    "pictures": [
+      "/images/projects/724event/pictures/picture1.png",
+      "/images/projects/724event/pictures/picture2.png",
+      "/images/projects/724event/pictures/picture3.png"
+    ],
+    "longtimeago": "A long time ago, in a galaxy far,",
+    "faraway": "far away...",
+    "minidescription": "Debugging an agency website",
+    "description": "You're a freelance front-end developer, and the events agency 724events has contacted you for an assignment. The agency wants to publish the new version of its showcase site. This is a one-page site. The design has been validated, and a first freelance developer began integration a few weeks ago. Unfortunately, this freelancer had to abandon the project for personal reasons. The site is functional, but a few bugs are preventing visitors from using it properly. So 724events calls on you to finalize the work. You meet Jean-Baptiste, the agency's Marketing Director, by videoconference, so that he can give you a more detailed presentation of the project. The mission represents an interesting challenge, so you decide to accept! Delighted, Jean-Baptiste quickly sends you an e-mail with all the information you need to get started.",
+    "tags": ["#HTML5", "#CSS3", "#JAVACRIPT", "#REACT"],
+    "theconqueredpowersofforce": [
+      "Browser inspector",
+      "Code testing",
+      "testing library"
+    ]
+  },
+  {
+    "id": "LukeSkywalker",
+    "title": { "name": "argent bank", "color": "rgb(0, 181, 113)" },
+    "logo": "/images/projects/argentbank/logo/logo.png",
+    "cover": "/images/projects/argentbank/cover/cover.png",
+    "code": "https://github.com/Abenlys/P11_vive-l-argent",
+    "site": "https://p11-vive-l-argent.vercel.app",
+    "pictures": [
+      "/images/projects/argentbank/pictures/picture1.png",
+      "/images/projects/argentbank/pictures/picture2.png",
+      "/images/projects/argentbank/pictures/picture3.png"
+    ],
+    "longtimeago": "A long time ago, in a galaxy far,",
+    "faraway": "far away...",
+    "minidescription": "Implementing Redux in a React app",
+    "description": "You've just joined Argent Bank as a front-end developer. Argent Bank is a new online bank looking to break into the banking sector. You're working with Mila, the project manager, to set up the user dashboard. You receive two emails from the CTO, Avery Moreau: Hello Mila and team, We're about to start work on our React web application for the new user authentication system. With tight deadlines, we're relying heavily on the team! Here's an overview of what we need for phase 1: User authentication. Create the complete responsive web application with React. Use Redux to manage the state of the entire application. For phase 2: Transactions, we're still in the design phase.",
+    "tags": [
+      "#HTML5",
+      "#CSS3",
+      "#JAVACRIPT",
+      "#REACT",
+      "#REDUX",
+      "#SWAGGER EDITOR"
+    ],
+    "theconqueredpowersofforce": [
+      "Create a responsive web app with React",
+      "Manage state with Redux",
+      "Manage store, slice with Redux",
+      "Interact with API",
+      "use swagger editor to edit possible API endpoints"
+    ]
+  }
+]

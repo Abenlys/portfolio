@@ -1,0 +1,36 @@
+.container-jedi {
+    background: linear-gradient($bleuLazer, $argentHolo);
+}
+
+.container-sith {
+    background: linear-gradient($noirProfond, $darkRed);
+}
+
+.yellow {
+    color: $policejaune;
+}
+
+.black {
+    color: black;
+}
+
+.grey {
+    color: grey;
+}
+
+.resistance {
+    background: linear-gradient($jediBleu, $bleuLazer);
+
+}
+
+.empire {
+    background: linear-gradient($rougeSombre, $orangeSith);
+}
+
+.resistance-weather {
+    background-color: $bleuLazer;
+}
+
+.empire-weather {
+    background-color: $orangeSith;
+}

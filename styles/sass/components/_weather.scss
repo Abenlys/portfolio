@@ -1,0 +1,20 @@
+.container-weather {
+    margin: 20px auto;
+    min-width: 150px;
+}
+
+.buttonweather {
+    width: 250px;
+}
+
+.weather2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    &__title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}

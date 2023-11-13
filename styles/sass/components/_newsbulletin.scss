@@ -1,0 +1,44 @@
+.container-news-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin: 10px auto;
+  @media all and (max-width: 768px) {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.news-weather {
+  @include flex-center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 45%;
+  height: 330px;
+  border-radius: 25% 10%;
+  @media all and (max-width: 768px) {
+    width: 90%;
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  &__imagetext {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    img {
+      border-radius: 25% 10%;
+      height: auto;
+    }
+    p {
+      text-size-adjust: auto;
+      display: inline-block;
+      padding: 5px;
+    }
+  }
+}

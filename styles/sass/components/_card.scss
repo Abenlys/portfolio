@@ -1,0 +1,40 @@
+.card {
+    border-radius: 25px;
+    padding: 1rem;
+    color: black;
+    height: 50vh;
+    margin-bottom: 20px;
+    transition: all .2s;
+    box-shadow: 0px 0px 12px white;
+    background-color: darkslategray;
+    &:hover {
+        transform: scale(1.05);
+    }
+    &__image {
+        padding: .5rem;
+        height: 50px;
+        font-family: 'Starjedi';
+        font-size: 30px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    &__separateur {
+        border: 1px dashed grey;
+        border-radius: 25%;
+        margin-bottom: 30px;
+    }
+    &__detail {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        p {
+            font-weight: 700;
+            color: chocolate;
+        }
+    }
+}
+
+.wide {
+    width: 40vw;
+}

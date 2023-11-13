@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Starjedi';
+    src: url('../../fonts/Starjedi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Starjedi', sans-serif;
+    color: $policejaune;
+}
+

@@ -1,0 +1,9 @@
+.displaycards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 20px;
+    width: 100%;
+    margin: 30px auto;
+    justify-content: center;
+    height: 100%;
+}
