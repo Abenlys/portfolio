@@ -75,6 +75,9 @@ export default function Navbar() {
             onClick={handleMenu}
             style={{ fontSize: 30 }}
           />
+        //   <label className="menu-icon hamburger-menu">
+        //   <input type="checkbox" />
+        // </label>
         )}
       </section>
       {menuOpen ? (
