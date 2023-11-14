@@ -7,7 +7,6 @@ import { useColorContext } from "../../hooks/Colorcontext";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-
 export default function Navbar() {
   //State
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,11 +18,12 @@ export default function Navbar() {
     setMenuOpen(!menuOpen);
   };
 
-
   // Render
   return (
     <div className="navbar-container">
-      <section className={`navbar boxshadow ${isJedi ? "navbar-jedi" : "navbar-sith"}`}>
+      <section
+        className={`navbar boxshadow ${isJedi ? "navbar-jedi" : "navbar-sith"}`}
+      >
         <div className="navbar__logo">
           <p>TomRam.</p>
           <div className="navbar__logo__img">
@@ -55,7 +55,7 @@ export default function Navbar() {
                 href={`/#${item}`}
                 className={`${isJedi ? "yellow" : "black"}`}
                 onClick={() => {
-                  setMenuOpen(false)
+                  setMenuOpen(false);
                 }}
               >
                 {item}
@@ -74,14 +74,24 @@ export default function Navbar() {
             className={`menu-icon ${isJedi ? "" : "black"}`}
             onClick={handleMenu}
             style={{ fontSize: 30 }}
+            sx={{
+              '@media (min-width: 768px)': {
+                display: 'none'
+              }
+            }}
           />
-        //   <label className="menu-icon hamburger-menu">
-        //   <input type="checkbox" />
-        // </label>
+
         )}
+        {/* <label className={`menu-icon hamburger-menu ${isJedi ? "" : "black"}`} >
+          <input className={`${isJedi ? "" : "black"}`} type="checkbox" onClick={handleMenu} />
+        </label> */}
       </section>
       {menuOpen ? (
-        <ul className={`navbar-responsive ${isJedi ? "navbar-jedi" : "navbar-sith"}`}>
+        <ul
+          className={`navbar-responsive ${
+            isJedi ? "navbar-jedi" : "navbar-sith"
+          }`}
+        >
           {navbarList.map((item, index) => (
             <li key={index}>
               <a

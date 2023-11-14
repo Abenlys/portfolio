@@ -97,9 +97,9 @@
 //   left: var(--hamburger-margin);
 //   z-index: 2;
 //   cursor: pointer;
-//   // @media all and (max-width: 768px){
-//   //   display: none;
-//   // }
+//   @media all and (min-width: 768px){
+//     display: none;
+//   }
 // }
 
 // .hamburger-menu:has(input:checked) {
@@ -107,12 +107,12 @@
 //   --background: gold;
 // }
 
-// .hamburger-menu:has(input:focus-visible)::before,
-// .hamburger-menu:has(input:focus-visible)::after,
-// .hamburger-menu input:focus-visible {
-//   border: 1px solid var(--background);
-//   box-shadow: 0 0 0 1px var(--foreground);
-// }
+// // .hamburger-menu:has(input:focus-visible)::before,
+// // .hamburger-menu:has(input:focus-visible)::after,
+// // .hamburger-menu input:focus-visible {
+// //   border: 1px solid var(--background);
+// //   box-shadow: 0 0 0 1px var(--foreground);
+// // }
 
 // .hamburger-menu::before,
 // .hamburger-menu::after,
