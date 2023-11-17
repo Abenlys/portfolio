@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 export default function Card({ work, isWide }) {
   const router = useRouter()
-  const className = isWide ? 'wide' : ""
+  const className = isWide ? 'borderradius' : ""
   if (!work) {
     return null;
   }

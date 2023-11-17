@@ -1,15 +1,11 @@
 .card {
-    border-radius: 25px;
     padding: 1rem;
     color: black;
     height: 50vh;
     margin-bottom: 20px;
-    transition: all .2s;
     box-shadow: 0px 0px 12px white;
     background-color: darkslategray;
-    &:hover {
-        transform: scale(1.05);
-    }
+    transition: all .2s;
     &__image {
         padding: .5rem;
         height: 50px;
@@ -21,6 +17,8 @@
             display: flex;
             word-break: break-all;
             height: auto;
+            justify-content: center;
+            align-items: center;
         }
     }
     &__separateur {
@@ -40,9 +38,10 @@
     }
 }
 
-.wide {
-    width: 40vw;
-    @media all and (max-width: 768px) {
-        width: 60vw;
+.borderradius {
+    border-radius: 25px;
+    transition: all .2s;
+    &:hover {
+        transform: scale(1.05);
     }
 }

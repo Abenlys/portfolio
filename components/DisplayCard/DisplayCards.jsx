@@ -22,7 +22,7 @@ export default function DisplayCards({currentCardId}) {
   return (
     <div className="displaycards">
       {workList.filter((work) => work.id !== currentCardId).map((work) => (
-        <Card className='displaycards__card' work={work} key={work.id} />
+        <Card className='displaycards__card' work={work} key={work.id} isWide={true} />
       ))}
     </div>
   );
