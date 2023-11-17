@@ -2,22 +2,30 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 95%;
+    width: 100%;
     margin: 130px auto;
 }
 
-.presentation-jedi {
+.presentation-jedi,
+.presentation-sith {
     width: 100%;
     height: 100vh;
-    background-image: url("../../../public/images/bg/peacekeeper.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 25px;
+    border-radius: 3px;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
+
+
+
+.home-text {
+    position: absolute;
+    z-index: 1;
     p {
         color: white;
         text-align: justify;
@@ -30,27 +38,11 @@
     }
 }
 
+.presentation-jedi {
+    background-image: url("../../../public/images/bg/peacekeeper.webp");
+}
+
 .presentation-sith {
-    width: 100%;
-    height: 100vh;
     background-image: url("../../../public/images/bg/darkvadorbrascroise.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 25px;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    p {
-        color: white;
-        text-align: justify;
-        font-size: 25px;
-        font-weight: 700;
-        span {
-            font-family: 'Starjedi';
-            color: gold;
-        }
-    }
 }
 

@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Navbar() {
   //State
   const [menuOpen, setMenuOpen] = useState(false);
-  const { isJedi, setIsJedi } = useColorContext();
+  const { isJedi } = useColorContext();
   const router = useRouter();
 
   // Comportement
@@ -61,7 +61,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <label class={`hamburger-menu ${isJedi ? "" : "black"}`}>
+        <label className={`hamburger-menu ${isJedi ? "" : "black"}`}>
           <input type="checkbox" onClick={handleMenu} />
         </label>
       </section>

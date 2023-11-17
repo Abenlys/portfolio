@@ -19,20 +19,27 @@ const roboto = Roboto({
 export default function Home() {
   const { isJedi, setIsJedi } = useColorContext();
   return (
-    <div
-      className="general-wrapper"
-    >
+    <div className="general-wrapper">
       <div className="static width">
-      <ChooseYourPath />
-      <Navbar />
+        <ChooseYourPath />
+        <Navbar />
       </div>
       <div className={`home ${roboto.className}`}>
         <div className={`presentation-${isJedi ? "jedi" : "sith"}`}>
-          <p>Welcome to the website of<br /> <span>TomRam</span> <br /> front-end developper</p>
-          <br />
-          <p>{`${isJedi ? "Jedi Knight & peace keeper" : "Sith Lord & Loving father"}`}</p>
+          <div className="home-text">
+            <p>
+              Welcome to the website of
+              <br /> <span>TomRam</span> <br /> front-end developper
+            </p>
+            <br />
+            <p>{`${
+              isJedi
+                ? "Jedi Knight & peace keeper"
+                : "Sith Lord & Loving father"
+            }`}</p>
+          </div>
         </div>
-      <Weather />
+        <Weather />
       </div>
       <SectionTitle value="about" id="about" />
       <AboutDescrip />

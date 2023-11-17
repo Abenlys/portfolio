@@ -12,6 +12,7 @@
     justify-content: space-between;
     padding: 1rem;
     border-radius: 5px;
+    z-index: 1;
     &__logo {
       display: flex;
       align-items: flex-end;
@@ -44,7 +45,10 @@
   width: 90%;
   border-radius: 5px;
   gap: 10px;
-  padding: 1rem;
+  padding: 3rem 1rem 1rem;
+  z-index: 0;
+  position: relative;
+  transform: translate(-0%, -10%);
   font-size: 20px;
   @media all and (min-width: 768px) {
     display: none;
