@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { navbarList } from "./navbarList";
 import Image from "next/image";
-import MenuIcon from "@mui/icons-material/Menu";
-import MenuOpenIcon from "@mui/icons-material/MenuOpen";
 import { useColorContext } from "../../hooks/Colorcontext";
 import { useRouter } from "next/router";
 import Link from "next/link";
@@ -63,28 +61,9 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        {menuOpen ? (
-          <MenuOpenIcon
-            className={`menu-icon ${isJedi ? "" : "black"}`}
-            onClick={handleMenu}
-            style={{ fontSize: 30 }}
-          />
-        ) : (
-          <MenuIcon
-            className={`menu-icon ${isJedi ? "" : "black"}`}
-            onClick={handleMenu}
-            style={{ fontSize: 30 }}
-            sx={{
-              '@media (min-width: 768px)': {
-                display: 'none'
-              }
-            }}
-          />
-
-        )}
-        {/* <label className={`menu-icon hamburger-menu ${isJedi ? "" : "black"}`} >
-          <input className={`${isJedi ? "" : "black"}`} type="checkbox" onClick={handleMenu} />
-        </label> */}
+        <label class={`hamburger-menu ${isJedi ? "" : "black"}`}>
+          <input type="checkbox" onClick={handleMenu} />
+        </label>
       </section>
       {menuOpen ? (
         <ul
