@@ -149,5 +149,36 @@
       "Interact with API",
       "use swagger editor to edit possible API endpoints"
     ]
+  },
+  {
+    "id": "MilleniumFalcon",
+    "title": { "name": "FEC convertisseur", "color": "rgb(158, 52, 235)" },
+    "logo": "/images/projects/fec/logo/logo.png",
+    "cover": "/images/projects/fec/cover/cover.png",
+    "code": "https://github.com/Abenlys/portfolio",
+    "site": "https://convertmyfec.vercel.app",
+    "pictures": [
+      "/images/projects/fec/pictures/picture1.png",
+      "/images/projects/fec/pictures/picture2.png",
+      "/images/projects/fec/pictures/picture3.png"
+    ],
+    "longtimeago": "A long time ago, in a galaxy far,",
+    "faraway": "far away...",
+    "minidescription": "convert FEC so easily",
+    "description": "former accountant and now front-end developer. I wasn't going to leave without an application that could help my former colleagues and, more broadly, all French accountants. This application was conceived because I systematically encountered the same problems when I was an accountant. Indeed, the roots of the subsidiary accounts kept at the customer's premises were different from the accounting roots kept by the accounting firm. We couldn't simply integrate the FEC as it was, otherwise the continuity of the chart of accounts from one year to the next would not have been respected for the accounting firm. So we had to modify the roots of the subsidiary accounts. I always did this via Excel, but each time it took between 5 and 10 minutes. That may not sound like much, but when you have a large volume of FEC to integrate, it's a lot of work, especially during the tax period, when every minute counts. Now, with this application, it's done in 30 seconds. Thanks to all!",
+    "tags": [
+      "#HTML5",
+      "#CSS3",
+      "#JAVACRIPT",
+      "#REACT",
+      "#PAPAPARSE",
+      "#NEXTJS",
+      "#SEO"
+    ],
+    "theconqueredpowersofforce": [
+      "Create a responsive web app with React",
+      "Papaparse so good",
+      "How to use external libraries"
+    ]
   }
 ]
