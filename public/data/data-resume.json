@@ -1,0 +1,124 @@
+[
+    {
+        "id" : "resume",
+        "pictureResume" : "/images/resume/photo-resume.webp",
+        "iconPictures" : [
+            "/images/resume/icon-tel.png",
+            "/images/resume/icon-mail.png",
+            "/images/resume/icon-github.png",
+            "/images/resume/icon-home.png",
+            "/images/resume/exp-pro.png",
+            "/images/resume/competences.png",
+            "/images/resume/softskills.png",
+            "/images/resume/langues.png",
+            "/images/resume/bureau.png",
+            "/images/resume/golf.png",
+            "/images/resume/pdf.png"
+        ],
+        "exigeantEtTravailleur" : "permet d'atteindre des standards elevés, favorisant la réalisation de bons résultats et le développement constant de ses compétences",
+        "autonomieEtInitiative" : "capacité à résoudre des problèmes, renforcant ainsi la productivité et la flexibilité face aux défis professionnels.",
+        "nomFormation" : "Intégrateur web",
+        "ecoleFormation" : "Openclassrooms",
+        "dateFormation" : "fev2023 - nov2023",
+        "competencesFormation" : [
+            "Maitrise des languages de programmation web (HTML, CSS, JS).",
+            "Capacité à concevoir des interfaces utilisateurs intuitives.",
+            "Compréhension des normes et des bonnes pratiques en matière d'accéssibilité et de responsive design."
+        ],
+        "apropos" : "A la suite d'une experience professionnelle en tant que comptable pendant 10 ans, j'ai choisi de faire une reconversion professionnelle pour m'orienter vers le travail de developpeur front-end. Je suis sensible au design, mais c'est l'aspect développement qui m'interesse avant tout. C'est-à-dire, développer des composants fonctionnels, reactifs et conviviaux en collaboration avec les parties prenantes.",
+        "lastExpPro" : {
+            "date" : "jan2018-nov2022",
+            "company" : "Audit Evaluation Conseil",
+            "job" : "Collaborateur comptable",
+            "competences" : [
+                "Automatisation des tableaux Excel",
+                "Productions des bilans, liasses fiscales, déclarations fiscales",
+                "Intégration des FEC, fichier d'intégration ventes et achats"
+            ]
+        },
+        "secondExpPro" : {
+            "date" : "oct2016-sep2017",
+            "company" : "Inextenso",
+            "job" : "alternant & assistant comptable",
+            "competences" : [
+                "Fichier d'intégration des ventes, achats",
+                "Aide à la production des bilans et liasses fiscales"
+            ]
+        },
+        "firstExpPro" : {
+            "date" : "sep2013-sep2016",
+            "company" : "KPMG",
+            "job" : "alternant & junior",
+            "competences" : [
+                "Apprentissage de l'élaboration des fichiers d'intégrations ventes, achats",
+                "Participation à la production des bilans et liasses fiscales",
+                "Encadrement d'alternant"
+            ]
+        },
+        "training" : {
+            "first" : {
+                "date" : "2006-2007",
+                "degree" : "Baccalaureat STL",
+                "location" : "35000 Rennes"
+            },
+            "second" : {
+                "date" : "2007-2008",
+                "degree" : "Etudiant Biologie",
+                "location" : "35000 Rennes"
+            },
+            "third" : {
+                "date" : "2008-2010",
+                "degree" : "Etudiant infirmier",
+                "location" : "92000 Nanterre"
+            },
+            "four" : {
+                "date" : "2011-2013",
+                "degree" : "DUT GEA",
+                "location" : "93000 St-Denis"
+            },
+            "five" : {
+                "date" : "2013-2017",
+                "degree" : "DCG - DSCG",
+                "location" : "75009 Paris"
+            },
+            "six" : {
+                "date" : "2023",
+                "degree" : "Intégrateur web",
+                "location" : "33000 Bordeaux"
+            }
+        },
+        "competencesFront" : [
+            "/images/skills-icons/html.svg",
+            "/images/skills-icons/css3.svg",
+            "/images/skills-icons/git.svg",
+            "/images/skills-icons/javascript.svg",
+            "/images/skills-icons/react.svg",
+            "/images/skills-icons/sass.svg",
+            "/images/skills-icons/redux.svg",
+            "/images/skills-icons/seo.svg",
+            "/images/skills-icons/next-js.svg",
+            "/images/skills-icons/swagger.svg"
+
+        ],
+        "competencesTransverses" : {
+            "langues" : [
+                {"name" : "Francais", "rating": "5"},
+                {"name": "English", "rating": "3"}
+            ],
+            "bureautiques" : [
+                {"name": "Word", "rating": "4"},
+                {"name": "Excel", "rating": "5"},
+                {"name": "PowerPoint", "rating": "3"}
+            ]
+        },
+        "interest" : ["Littérature classique", "musique", "jeux-vidéo"],
+        "sport" : "Golf",
+        "softskills" : [
+            "Transmettre des idées et écouter les autres",
+            "Collaborer avec d'autres personnes pour atteindre des objectifs communs",
+            "Souplesse face aux changements et s'adapter rapidement face à de nouvelles situations",
+            "Analyser les situations, identifier les problèmes et proposer des situations",
+            "Organiser efficacement son temps de travail et respect des échéances"
+        ]
+    }   
+]

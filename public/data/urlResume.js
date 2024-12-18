@@ -1,0 +1,1 @@
+export const urlResume = "data/data-resume.json"
