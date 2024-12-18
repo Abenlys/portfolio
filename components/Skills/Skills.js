@@ -15,6 +15,7 @@ export default function Skills() {
   const dynamicTitle = hoveredIcon ? `${hoveredIcon.name}` : defaultTitle;
   return (
     <section className="skills">
+      
       <h2 className="title-dynamic">
         my{" "}
         <span
@@ -27,23 +28,26 @@ export default function Skills() {
         <br />
         my way
       </h2>
-      <ul className="grid">
-        {skillsList.map((item, index) => (
-          <li
-            className="grid__agencement"
-            key={index}
-            onMouseEnter={() => handleIconHover(item)}
-            onMouseLeave={() => handleIconHover(null)}
-          >
-            <Image
-              src={`/images/skills-icons/${item.name}.svg`}
-              alt={item.name}
-              fill
-              priority
-            />
-          </li>
-        ))}
-      </ul>
+    
+      
+        <ul className="grid">
+          {skillsList.map((item, index) => (
+            <li
+              className="grid__agencement"
+              key={index}
+              onMouseEnter={() => handleIconHover(item)}
+              onMouseLeave={() => handleIconHover(null)}
+            >
+              <Image
+                src={`/images/skills-icons/${item.name}.svg`}
+                alt={item.name}
+                fill
+                priority
+              />
+            </li>
+          ))}
+        </ul>
+      
     </section>
   );
 }
