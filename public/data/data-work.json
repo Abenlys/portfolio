@@ -180,5 +180,35 @@
       "Papaparse so good",
       "How to use external libraries"
     ]
+  },
+  {
+    "id": "LeiaOrgana",
+    "title": { "name": "country app", "color": "rgb(0,191,255)" },
+    "logo": "/images/projects/country/logo/logo.png",
+    "cover": "/images/projects/country/cover/cover.png",
+    "code": "https://github.com/Abenlys/countries",
+    "site": "https://countries-seven-pied.vercel.app/",
+    "pictures": [
+      "/images/projects/fec/pictures/picture1.png",
+      "/images/projects/fec/pictures/picture2.png",
+      "/images/projects/fec/pictures/picture3.png"
+    ],
+    "longtimeago": "A long time ago, in a galaxy far,",
+    "faraway": "far away...",
+    "minidescription": "Find information about countries",
+    "description": "Hi everyone, I've made a site where you can consult information on all the countries in the world. You can filter by region of the world: Oceania, Europe, etc... .You can also search for the country you're interested in using the search bar. Click on the country you want to learn more about. A Google map is displayed to give you an idea of the country's location on the world map. Border countries are also displayed, and you can click on them to find out more.",
+    "tags": [
+      "#HTML5",
+      "#CSS3",
+      "#JAVACRIPT",
+      "#REACT",
+      "#APPROUTER",
+      "#NEXTJS",
+      "#REDUX"
+    ],
+    "theconqueredpowersofforce": [
+      "Method on object and array",
+      "More about Nextjs and hooks"
+    ]
   }
 ]
